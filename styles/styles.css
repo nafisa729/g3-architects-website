@@ -8,3 +8,44 @@
   font-weight: 600;
   font-style: normal;
 }
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+/* dark-2 */
+.text-gray{
+    color: #424242;
+}
+/* dark-3 */
+.text-light-gray{
+    color: #727272;
+}
+/* header styles */
+.bg{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* navbar related styles */
+.navbar{
+ justify-content: space-between;
+ align-items: center;
+}
+
+.nav-items{
+ list-style: none;
+ margin-right: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #424242;
+}
+.nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.brand{
+  font-size: 3rem;
+  font-weight: 700;
+}
