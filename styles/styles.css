@@ -59,13 +59,14 @@
     margin: 0 auto;
     max-width: 850px;
 }
-.baner-title{
+.banner-title{
     font-size: 4rem;
     font-weight: 600;
 }
 .banner-desc{
     font-size: 1rem;
     font-weight: 400; 
+    color: #727272;
 }
 .btn-primary{
     height: 4rem;
@@ -114,24 +115,111 @@ main > section{
 #special-2{
     color: #FF900E;
 }
-
-
-@media screen and (max-width: 576px) {
-    .navbar ,
-    .nav-link,
-    .team{
-        flex-direction: column;}
-    .team-img{
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 20px;
-    }
-    .team-featurs{
-        margin-left: 20px;
-    }
+.fact-card{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.fact-desc{
+    max-width: 540px;
+}
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600px;
+    margin: 5px 10px;
+    color: #424242;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600px;
+    margin-top: 10px;
+    color: #727272;
+}
+.of{
+    max-width: 1440px;
+    height: 1049px;
+}
+.other-featurs-item{
+    width: 586px;
+    height: 171px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.expo-d {
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+    margin-top: -77px;
+    margin-left: -92px;
 }
 
-@media screen and (min-width:576px) and (max-width:992px){
-   .team{
-    flex-direction: column;
-   } 
+.expo-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1; 
+    margin: 0;
+}
+
+.expo {
+    color: #ffffff;
+    font-size: 1.56rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.border-line{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.line{
+    width: 5px;
+    height: 100px;
+    background-color: #FF900E;
+}
+.sponsor-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsor-img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    filter: grayscale(100%);
+}
+footer{
+    width: 1440px;
+    height: 100px;
+    background-color: #fff4e8;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.footer-title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 40px;
+    color: #727272;
 }
